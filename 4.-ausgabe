@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Potsdamer Blattstoffe - 4. Ausgabe</title>
+  <style>
+    body {
+      background: white;
+      color: black;
+      font-family: Consolas, monospace;
+      margin: 0.8rem;
+      font-size: 0.8rem;
+    }
+    pre {
+      white-space: pre-wrap;   /* Wrap text at edge of screen */
+      word-wrap: break-word;   /* Break long words if necessary */
+    }
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <pre>
+<b>4. Ausgabe - November 2025 / 4th Issue - November 2025</b>
+
+
+---
+
+    
+walking with incense
+
+my god, my god,
+is the house on fire
+is it time to raid
+our closeted desire
+
+for a caesarean
+we’ll hide between
+the elements
+of the salt plane
+
+the hydrogen and the chlorine
+so infinite recurring
+since the angels set down and began
+to burn their wings
+
+
+---
+
+
+<a href="index.html">Back to homepage</a>
+  </pre>
+</body>
+</html>
