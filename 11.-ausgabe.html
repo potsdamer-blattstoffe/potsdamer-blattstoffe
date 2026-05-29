@@ -23,14 +23,20 @@
       margin: 0;
     }
 
-    .page-scroll {
-      max-width: 100%;
-      overflow-x: auto;
-      margin-top: 0.3rem;
-      margin-bottom: 2rem;
-    }
+.page-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-top: 0.3rem;
+  margin-bottom: 2rem;
+}
 
-   .pdf-page {
+.scale-frame {
+  width: calc(1024px * 0.55);
+  height: calc(1448px * 0.55);
+  position: relative;
+}
+
+.pdf-page {
   position: relative;
   display: block;
   width: 1024px;
@@ -38,9 +44,11 @@
   background: white;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8rem;
-  line-height: 1.25;
+  font-size: 22px;
+  line-height: 1.12;
   color: #111;
+  transform: scale(0.55);
+  transform-origin: top left;
 }
 
     .text-block {
@@ -70,7 +78,8 @@
 ---
 </pre>
 <div class="page-scroll">
-  <div class="pdf-page">
+  <div class="scale-frame">
+    <div class="pdf-page">
     <!-- pale paper/shade blocks -->
     <div class="shade" style="left: 98px; top: 98px; width: 230px; height: 180px;"></div>
     <div class="shade" style="left: 98px; top: 278px; width: 155px; height: 102px;"></div>
@@ -169,6 +178,7 @@ Papierstadt
 Leicht und klar, wie
 Luft.</div>
 
+    </div>
   </div>
 </div>
 
